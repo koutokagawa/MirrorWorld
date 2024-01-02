@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MirrorWorld.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MirrorWorld.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MirrorWorldEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MirrorWorld">
+      <UniqueIdentifier>{8F22C0F7-3684-34AC-80BB-4F514473D565}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MirrorWorld\MirrorWorld.Build.cs">
+      <Filter>Source\MirrorWorld</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MirrorWorld\MirrorWorld.cpp">
+      <Filter>Source\MirrorWorld</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MirrorWorld\MirrorWorld.h">
+      <Filter>Source\MirrorWorld</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MirrorWorld\MirrorWorldCharacter.cpp">
+      <Filter>Source\MirrorWorld</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MirrorWorld\MirrorWorldCharacter.h">
+      <Filter>Source\MirrorWorld</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MirrorWorld\MirrorWorldGameMode.cpp">
+      <Filter>Source\MirrorWorld</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MirrorWorld\MirrorWorldGameMode.h">
+      <Filter>Source\MirrorWorld</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MirrorWorld\MirrorWorldPlayerController.cpp">
+      <Filter>Source\MirrorWorld</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MirrorWorld\MirrorWorldPlayerController.h">
+      <Filter>Source\MirrorWorld</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MirrorWorld\MirrorWorldProjectile.cpp">
+      <Filter>Source\MirrorWorld</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MirrorWorld\MirrorWorldProjectile.h">
+      <Filter>Source\MirrorWorld</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MirrorWorld\TP_PickUpComponent.cpp">
+      <Filter>Source\MirrorWorld</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MirrorWorld\TP_PickUpComponent.h">
+      <Filter>Source\MirrorWorld</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MirrorWorld\TP_WeaponComponent.cpp">
+      <Filter>Source\MirrorWorld</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MirrorWorld\TP_WeaponComponent.h">
+      <Filter>Source\MirrorWorld</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\test\\ue5\\mirrorworld\\source\\mirrorworld\\mirrorworld.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\test\\ue5\\mirrorworld\\intermediate\\build\\win64\\x64\\mirrorworldeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\test\\ue5\\mirrorworld\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\mirrorworld\\definitions.mirrorworld.h",
+            "c:\\test\\ue5\\mirrorworld\\source\\mirrorworld\\mirrorworld.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

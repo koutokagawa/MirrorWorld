@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MirrorWorld",
+			"Path": "..\\Source\\MirrorWorld.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MirrorWorldEditor",
+			"Path": "..\\Source\\MirrorWorldEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
