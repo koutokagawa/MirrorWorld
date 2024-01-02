@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\test\\UE5\\MirrorWorld\\Source\\MirrorWorld\\MirrorWorld.Build.cs",
+		"C:\\test\\UE5\\MirrorWorld\\Source\\MirrorWorld.Target.cs",
+		"C:\\test\\UE5\\MirrorWorld\\Source\\MirrorWorldEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}
