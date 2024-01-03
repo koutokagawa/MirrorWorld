@@ -4103,3 +4103,60 @@ Script Stack (0 frames) :
 [2024.01.03-10.57.40:355][995]LogSlate: Window '2_Scenario' being destroyed
 [2024.01.03-10.57.40:357][995]LogWorld: UWorld::CleanupWorld for World_109, bSessionEnded=true, bCleanupResources=true
 [2024.01.03-10.57.40:357][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.03-10.59.25:514][513]LogEditorViewport: Clicking Background
+[2024.01.03-10.59.27:707][753]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2024.01.03-10.59.27:711][753]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.03-10.59.27:711][753]PIE: New page: PIEセッション: 2_Scenario (2024/01/04 4:59:27)
+[2024.01.03-10.59.27:711][753]LogPlayLevel: Creating play world package: /Game/Scene/2_Sinario/UEDPIE_0_2_Scenario
+[2024.01.03-10.59.27:713][753]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001774s)
+[2024.01.03-10.59.27:713][753]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/2_Sinario/2_Scenario.2_Scenario to /Game/Scene/2_Sinario/UEDPIE_0_2_Scenario.2_Scenario (0.001802s)
+[2024.01.03-10.59.27:727][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.01.03-10.59.27:729][753]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.03-10.59.27:730][753]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.03-10.59.27:730][753]LogAIModule: Creating AISystem for world 2_Scenario
+[2024.01.03-10.59.27:730][753]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2024.01.03-10.59.27:730][753]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2024.01.03-10.59.27:730][753]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.03-10.59.27:730][753]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.03-10.59.27:730][753]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.03-10.59.27:730][753]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.03-10.59.27:730][753]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.03-10.59.27:730][753]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.03-10.59.27:730][753]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.03-10.59.27:730][753]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.03-10.59.27:731][753]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.03-10.59.27:731][753]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.03-10.59.27:731][753]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.03-10.59.27:733][753]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.03-10.59.27:754][753]LogAudioMixer: Display: Using Audio Hardware Device ヘッドセット イヤフォン (2- INZONE H9 / INZONE H7 - Chat)
+[2024.01.03-10.59.27:754][753]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.03-10.59.27:754][753]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.03-10.59.27:754][753]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.03-10.59.27:755][753]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2024.01.03-10.59.27:755][753]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2024.01.03-10.59.27:757][753]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2024.01.03-10.59.27:757][753]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2024.01.03-10.59.27:757][753]LogInit: FAudioDevice initialized with ID 29.
+[2024.01.03-10.59.27:757][753]LogAudio: Display: Audio Device (ID: 29) registered with world '2_Scenario'.
+[2024.01.03-10.59.27:757][753]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2024.01.03-10.59.27:759][753]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.01.03-10.59.27:759][753]LogWorld: Bringing World /Game/Scene/2_Sinario/UEDPIE_0_2_Scenario.2_Scenario up for play (max tick rate 0) at 2024.01.03-19.59.27
+[2024.01.03-10.59.27:760][753]LogWorld: Bringing up level for play took: 0.000252
+[2024.01.03-10.59.27:761][753]LogOnline: OSS: Created online subsystem instance for: :Context_103
+[2024.01.03-10.59.27:763][753]LogTemp: Warning: BeginPlay
+[2024.01.03-10.59.27:763][753]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2024.01.03-10.59.27:763][753]PIE: サーバーにログインしました
+[2024.01.03-10.59.27:763][753]PIE: PIE合計開始時間 0.053 秒。
+[2024.01.03-10.59.34:245][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.03-10.59.34:245][518]LogWorld: BeginTearingDown for /Game/Scene/2_Sinario/UEDPIE_0_2_Scenario
+[2024.01.03-10.59.34:245][518]LogWorld: UWorld::CleanupWorld for 2_Scenario, bSessionEnded=true, bCleanupResources=true
+[2024.01.03-10.59.34:245][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.03-10.59.34:248][518]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.03-10.59.34:250][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.03-10.59.34:265][518]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.03-10.59.34:265][518]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2024.01.03-10.59.34:265][518]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2024.01.03-10.59.34:267][518]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2024.01.03-10.59.34:270][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.03-10.59.34:272][518]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.01.03-10.59.34:324][521]LogPlayLevel: Display: Destroying online subsystem :Context_103
