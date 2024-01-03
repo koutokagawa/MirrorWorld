@@ -22,6 +22,11 @@
 			"Name": "LDAssistant",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/51c5a9a0d5f84beba23aab69bed8d28c"
+		},
+		{
+			"Name": "ScreenFade",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/c3edf2a04e0b4ec5a3940a4c35268972"
 		}
 	]
 }
