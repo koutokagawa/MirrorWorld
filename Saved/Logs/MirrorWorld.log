@@ -4160,3 +4160,60 @@ Script Stack (0 frames) :
 [2024.01.03-10.59.34:270][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.01.03-10.59.34:272][518]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
 [2024.01.03-10.59.34:324][521]LogPlayLevel: Display: Destroying online subsystem :Context_103
+[2024.01.03-11.01.30:660][ 26]LogEditorViewport: Clicking Background
+[2024.01.03-11.01.32:693][261]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2024.01.03-11.01.32:696][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.03-11.01.32:697][261]PIE: New page: PIEセッション: 2_Scenario (2024/01/04 5:01:32)
+[2024.01.03-11.01.32:734][261]LogPlayLevel: Creating play world package: /Game/Scene/2_Sinario/UEDPIE_0_2_Scenario
+[2024.01.03-11.01.32:736][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001734s)
+[2024.01.03-11.01.32:736][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/2_Sinario/2_Scenario.2_Scenario to /Game/Scene/2_Sinario/UEDPIE_0_2_Scenario.2_Scenario (0.001783s)
+[2024.01.03-11.01.32:748][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.01.03-11.01.32:749][261]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.03-11.01.32:749][261]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.03-11.01.32:750][261]LogAIModule: Creating AISystem for world 2_Scenario
+[2024.01.03-11.01.32:750][261]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2024.01.03-11.01.32:750][261]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2024.01.03-11.01.32:750][261]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.03-11.01.32:750][261]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.03-11.01.32:750][261]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.03-11.01.32:750][261]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.03-11.01.32:750][261]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.03-11.01.32:750][261]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.03-11.01.32:750][261]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.03-11.01.32:750][261]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.03-11.01.32:750][261]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.03-11.01.32:750][261]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.03-11.01.32:750][261]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.03-11.01.32:752][261]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.03-11.01.32:774][261]LogAudioMixer: Display: Using Audio Hardware Device ヘッドセット イヤフォン (2- INZONE H9 / INZONE H7 - Chat)
+[2024.01.03-11.01.32:774][261]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.03-11.01.32:774][261]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.03-11.01.32:774][261]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.03-11.01.32:775][261]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2024.01.03-11.01.32:775][261]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2024.01.03-11.01.32:776][261]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2024.01.03-11.01.32:776][261]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2024.01.03-11.01.32:776][261]LogInit: FAudioDevice initialized with ID 30.
+[2024.01.03-11.01.32:776][261]LogAudio: Display: Audio Device (ID: 30) registered with world '2_Scenario'.
+[2024.01.03-11.01.32:776][261]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 30
+[2024.01.03-11.01.32:778][261]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.01.03-11.01.32:779][261]LogWorld: Bringing World /Game/Scene/2_Sinario/UEDPIE_0_2_Scenario.2_Scenario up for play (max tick rate 0) at 2024.01.03-20.01.32
+[2024.01.03-11.01.32:779][261]LogWorld: Bringing up level for play took: 0.000304
+[2024.01.03-11.01.32:780][261]LogOnline: OSS: Created online subsystem instance for: :Context_104
+[2024.01.03-11.01.32:782][261]LogTemp: Warning: BeginPlay
+[2024.01.03-11.01.32:782][261]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2024.01.03-11.01.32:783][261]PIE: サーバーにログインしました
+[2024.01.03-11.01.32:783][261]PIE: PIE合計開始時間 0.087 秒。
+[2024.01.03-11.02.38:824][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.03-11.02.38:824][166]LogWorld: BeginTearingDown for /Game/Scene/2_Sinario/UEDPIE_0_2_Scenario
+[2024.01.03-11.02.38:824][166]LogWorld: UWorld::CleanupWorld for 2_Scenario, bSessionEnded=true, bCleanupResources=true
+[2024.01.03-11.02.38:824][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.03-11.02.38:827][166]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.03-11.02.38:831][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.03-11.02.38:843][166]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.03-11.02.38:843][166]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 30
+[2024.01.03-11.02.38:843][166]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2024.01.03-11.02.38:845][166]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2024.01.03-11.02.38:848][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.03-11.02.38:851][166]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.01.03-11.02.38:897][168]LogPlayLevel: Display: Destroying online subsystem :Context_104
