@@ -11398,3 +11398,14 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.09-05.58.53:506][843]LogContentValidation: Display: /Script/Engine.PointLight /Game/Scene/3_Game/3_Game.3_Game:PersistentLevel.PointLight_UAID_047C16B3F36EEFCD01_1173107279 を検証しています
 [2024.01.09-05.58.53:506][843]LogContentValidation: Display: /Script/Engine.PointLight /Game/Scene/3_Game/3_Game.3_Game:PersistentLevel.PointLight_UAID_047C16B3F36EEFCD01_1185611280 を検証しています
 [2024.01.09-05.58.53:506][843]LogContentValidation: Display: /Script/Engine.PointLight /Game/Scene/3_Game/3_Game.3_Game:PersistentLevel.PointLight_UAID_047C16B3F36EEFCD01_1204333281 を検証しています
+[2024.01.09-06.11.39:510][367]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=スピーカー (2- INZONE H9 / INZONE H7 - Game), InstanceID=1
+[2024.01.09-06.11.39:642][367]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Realtek Digital Output (Realtek(R) Audio), InstanceID=1
+[2024.01.09-06.11.39:725][367]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=24632
+[2024.01.09-06.11.40:059][368]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{22c79453-291a-4319-ae4e-ac4c47941388}, Name=Realtek Digital Output (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=12.15
+[2024.01.09-06.11.40:060][368]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.01.09-06.11.40:061][368]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.01.09-06.11.45:176][384]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=スピーカー (Logitech G733 Gaming Headset), InstanceID=1
+[2024.01.09-06.11.45:391][384]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=24632
+[2024.01.09-06.11.45:726][385]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=8, SampleRate=44100, DeviceID={0.0.0.00000000}.{07706d3e-6cce-4132-9e31-9d5c1b077db9}, Name=スピーカー (Logitech G733 Gaming Headset)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=14.68
+[2024.01.09-06.11.45:727][385]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=1
+[2024.01.09-06.11.45:728][385]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
